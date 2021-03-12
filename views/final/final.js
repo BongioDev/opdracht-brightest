@@ -11,28 +11,42 @@ var counters = {
 
 
 // get the continent with the most points
-function YourContinent() {
-    // get points
-    var stringNumbers = Object.values(counters);
-    // points in array
-    var numbers = [];
-    // get continents
-    var continents = Object.keys(counters);
-    // get highest score
-    var highestNumber;
 
-    // push numbers from counter (object) to array: numbers
-    for(i = 0; i < stringNumbers.length; i++) {
-        numbers.push(parseInt(stringNumbers[i]));
-        // store highest number
-        highestNumber = Math.max(...numbers);
-    };
+// get points from counters
+var stringNumbers = Object.values(counters);
+// get all continents from counters
+var continents = Object.keys(counters);
+// all points in array
+var numbers = [];
+// store highest score
+var highestNumber;
+// store the user's highest scoring continent(s)
+var userContinents = [];
 
+// push numbers from counters(object) to numbers(array)
+for(i = 0; i < stringNumbers.length; i++) {
+    numbers.push(parseInt(stringNumbers[i]));
+    // store highest number
+    highestNumber = Math.max(...numbers);
+};
 
-    // get the highest scoring continent
-    for(i = 0; i < continents.length; i++) {
-        if(Object.entries(counters)[i][1] == highestNumber) {
-            console.log(Object.entries(counters)[i]);
-        }
+// get the highest scoring continent
+for(i = 0; i < continents.length; i++) {
+    if(Object.entries(counters)[i][1] == highestNumber) {
+        //push highest continent(s) in array
+        userContinents.push(Object.entries(counters)[i]);
+        // console.log(Object.entries(counters)[i]);
     }
 }
+// console.log(userContinents);
+
+    
+// get the right xml from class
+window.onload = function() {
+    const XMLcontinents = new Continent(userContinents);
+    XMLcontinents.getContinent();
+    // console.log(XMLcontinents);
+  };
+
+
+
