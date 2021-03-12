@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-md-12">
+                <h1>Travel destinations</h1>
+                <h3>Which of the following travel destinations sounds the most fun to you?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/cities.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cities</h5>
+                      <p class="card-text">You like cities filled with history and culture.</p>
+                      <a onclick="choice('cities')" href="#" class="btn btn-primary">Cities</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/beach.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Secluded beach</h5>
+                      <p class="card-text">A secluded beach with blue water and your favorite drink in your hand!</p>
+                      <a onclick="choice('beach')" href="#" class="btn btn-primary">Beach</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/roads.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Scenic roads</h5>
+                      <p class="card-text">Discovering scenic roads is what you like to do.</p>
+                      <a onclick="choice('roads')" href="#" class="btn btn-primary">Roads</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/outdoor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Outdoor adventures</h5>
+                      <p class="card-text">Hiking in nature or climbing mountains is more your cup of tea.</p>
+                      <a onclick="choice('outdoor')" href="#" class="btn btn-primary">Outdoor</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/jungle.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jungle</h5>
+                      <p class="card-text">Staying in a damp jungle and discovering new plants and animals.</p>
+                      <a onclick="choice('jungle')" href="#" class="btn btn-primary">Jungle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../../bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="dest.js" type="text/javascript"></script>
+    <script src="../../classes/Choices.js" type="text/javascript"></script>
+</body>
+</html>

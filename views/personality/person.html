@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-md-12">
+                <h1>Travel personality</h1>
+                <h3>Which of the following travel experiences sounds the most fun to you?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/roadtrip.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Road tripping through Italy</h5>
+                      <p class="card-text">Let the roads take you to amazing places!</p>
+                      <a onclick="choice('roadtrip')" href="#" class="btn btn-primary">Roadtrip</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/safari.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Spotting wildlife in Africa</h5>
+                      <p class="card-text">Spotting wildlife in a safari!</p>
+                      <a onclick="choice('safari')" href="#" class="btn btn-primary">Safari</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/sea.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">floating on an air mattress</h5>
+                      <p class="card-text">Relaxing on a mattress in cristal clear water in the Maldives.</p>
+                      <a onclick="choice('sea')" href="#" class="btn btn-primary">Relaxing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../../bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="person.js" type="text/javascript"></script>
+    <script src="../../classes/Choices.js" type="text/javascript"></script>
+</body>
+</html>

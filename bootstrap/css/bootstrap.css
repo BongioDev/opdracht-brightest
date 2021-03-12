@@ -4222,6 +4222,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin:20px;
 }
 .card > hr {
   margin-right: 0;
@@ -4316,6 +4317,7 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  
 }
 
 .card-img,

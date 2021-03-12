@@ -6,11 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
 <body>
     
-<h1>Transportt</h1>    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Transport</h1>
+                <h3 class="text-center">What type off transportation do you prefer to travel?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-lg-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/plane.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plane</h5>
+                      <p class="card-text">You like to travel on the fastest way possible, this option is also needed for great distances.</p>
+                      <a onclick="choice('plane')" href="#" class="btn btn-primary">Plane</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-lg-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/car.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Car</h5>
+                      <p class="card-text">Your vacation starts when you get out of your frontdoor! You like to travel on your own pace.</p>
+                      <a onclick="choice('car')" href="#" class="btn btn-primary">Car</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-lg-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/train.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Train</h5>
+                      <p class="card-text">Traveling without a worry and with great comfort.</p>
+                      <a onclick="choice('train')" href="#" class="btn btn-primary">Train</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-lg-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/bus.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bus</h5>
+                      <p class="card-text">This can be the cheapest method to travel, sometimes also the slowest.</p>
+                      <a onclick="choice('bus')" href="#" class="btn btn-primary">Bus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="../../bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="transport.js" type="text/javascript"></script>
+    <script src="../../classes/Choices.js" type="text/javascript"></script>
 </body>
 </html>

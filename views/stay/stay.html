@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-md-12">
+                <h1>Your stay</h1>
+                <h3>What type off stay would you choose?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/resort.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Luxery resort</h5>
+                      <p class="card-text">You like luxery and a peace of mind! Everything is taken care off.</p>
+                      <a onclick="choice('resort')" href="#" class="btn btn-primary">Resort</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/camping.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Camping</h5>
+                      <p class="card-text">Back to basics! You like it simple and cheap, and sometimes close to nature.</p>
+                      <a onclick="choice('camping')" href="#" class="btn btn-primary">Camping</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/hostel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Hostel</h5>
+                      <p class="card-text">You are socially minded and don't care about not having some privacy. You just need a cheap place to crash!</p>
+                      <a onclick="choice('hostel')" href="#" class="btn btn-primary">Hostel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mx-auto card" style="width: 18rem;">
+                    <img src="../../images/hotel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Basic hotel/room</h5>
+                      <p class="card-text">You want to have a comfortable stay with a lot of freedom but not to expensive.</p>
+                      <a onclick="choice('hotel')" href="#" class="btn btn-primary">Hotel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../../bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="stay.js" type="text/javascript"></script>
+    <script src="../../classes/Choices.js" type="text/javascript"></script>
+</body>
+</html>
