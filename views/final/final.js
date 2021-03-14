@@ -42,11 +42,9 @@ for(i = 0; i < continents.length; i++) {
 
     
 // get the right xml from class
-window.onload = function() {
     const XMLcontinents = new Continent(userContinents);
+
     XMLcontinents.getContinent();
-    // console.log(XMLcontinents);
-  };
 
-
-
+    //xmldoc naar hier krijgen??? 
+    console.log(XMLcontinents);

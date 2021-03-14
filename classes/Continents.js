@@ -13,12 +13,13 @@ class Continent{
             // push XML filenames in array
             XMLurl.push("../../xml/continents/" + this.continents[i][0] + ".xml");
 
-        fetch(XMLurl[i]).then(response => response.text())
-        .then(data => {
-        var parser = new DOMParser();
-        var xmlDoc = parser.parseFromString(data, "application/xml");
-        console.log(xmlDoc);
-        // showXML(xmlDoc);
+            fetch(XMLurl[i]).then(response => response.text())
+            .then(data => {
+            var parser = new DOMParser();
+            var xmlDoc = parser.parseFromString(data, "application/xml");
+            // console.log(xmlDoc);
+
+            return xmlDoc;
         });
         }
 
