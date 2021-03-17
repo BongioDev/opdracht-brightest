@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<root>
+  <continent>
+    <name>Home</name>
+    <discription>
+        Home sweet home
+    </discription>
+    <countries>
+        <country>
+            <name>The ardennes</name>
+            <discription>
+                If you’re looking for outdoor activities, fresh air and greenery, head for Belgium’s southeastern corner. Here you’ll find meandering rivers that are ideal for low-intensity kayaking.
+            </discription>
+            <image>../../images/ardennes.jpg</image>
+            <link>https://www.lonelyplanet.com/belgium/the-ardennes</link>
+        </country>
+        <country>
+            <name>Brussels</name>
+            <discription>
+                Historic yet hip, bureaucratic yet bizarre, self-confident yet unshowy, Brussels is multicultural to its roots.
+            </discription>
+            <image>../../images/brussels.jpg</image>
+            <link>https://www.lonelyplanet.com/brussels</link>
+        </country>
+        <country>
+            <name>Bruges</name>
+            <discription>
+                If you set out to design a fairy-tale medieval town, it would be hard to improve on central Bruges (Brugge in Dutch), one of Europe's best preserved cities.
+            </discription>
+            <image>../../images/bruges.jpg</image>
+            <link>https://www.lonelyplanet.com/a/nar/4cd127dc-4698-4ea7-83f9-2220fb8da021/358711</link>
+        </country>
+    </countries>
+  </continent>
+</root>

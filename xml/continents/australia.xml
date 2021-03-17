@@ -3,30 +3,24 @@
   <continent>
     <name>Australia</name>
     <discription>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus odit facilis inventore laudantium distinctio quaerat architecto mollitia, iste eos. Commodi veritatis repellat necessitatibus error aliquam accusamus odio minus tempore?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ullam quaerat illum laudantium nemo necessitatibus, quae similique repellat ea minus nisi quidem omnis inventore. Cum obcaecati delectus provident laboriosam aliquam!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae. Optio facere in pariatur eligendi nihil odit officia accusantium voluptas accusamus, dignissimos impedit mollitia porro blanditiis praesentium maiores aut sapiente!
+        Australia is the unexpected: a place where the world’s oldest cultures share vast ochre plains, stylish laneways and unimaginably blue waters with successive waves of new arrivals from across the globe.
     </discription>
     <countries>
         <country>
-            <name>België</name>
-            <discription>beschrijcing land</discription>
-            <image></image>
+            <name>Freycinet National Park</name>
+            <discription>
+                Framed by some of the state's finest beaches and rising into spectacular low mountains, Freycinet incorporates the southern end of Freycinet Peninsula, people-free Schouten Island and the lesser-known Friendly Beaches north of Coles Bay. 
+            </discription>
+            <image>../../images/auspark.jpg</image>
+            <link>https://www.lonelyplanet.com/australia/tasmania/east-coast/attractions/freycinet-national-park/a/poi-sig/1163232/362442</link>
         </country>
         <country>
-            <name>Italië</name>
-            <discription>beschrijving land</discription>
-            <image></image>
-        </country>
-        <country>
-            <name>Griekenland</name>
-            <discription>beschrijving land</discription>
-            <image></image>
-        </country>
-        <country>
-            <name>Noorwegen</name>
-            <discription>Beschrijcing land</discription>
-            <image></image>
+            <name>Melbourne</name>
+            <discription>
+                Equal parts dynamic, cosmopolitan, sports-mad and arty, Melbourne simultaneously exudes style and keeps its best spots hidden, inviting discovery by food and culture lovers.
+            </discription>
+            <image>../../images/melbourne.jpg</image>
+            <link>https://www.lonelyplanet.com/australia/melbourne</link>
         </country>
     </countries>
   </continent>

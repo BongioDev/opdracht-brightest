@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<root>
+  <continent>
+    <name>USA</name>
+    <discription>
+        The great American experience is about so many things: bluegrass and beaches, snow-covered peaks and redwood forests, restaurant-loving cities and big open skies.
+    </discription>
+    <countries>
+        <country>
+            <name>California</name>
+            <discription>
+                From misty Northern California redwood forests to sun-kissed Southern California beaches, the enchanted Golden State makes Disneyland seem normal.
+            </discription>
+            <image>../../images/cali.jpg</image>
+            <link>https://www.lonelyplanet.com/usa/california</link>
+        </country>
+        <country>
+            <name>New York</name>
+            <discription>
+                Epicenter of the arts. Architectural darling. Dining and shopping capital. Trendsetter. New York City wears many crowns, and spreads an irresistible feast for all.
+            </discription>
+            <image>../../images/ny.jpg</image>
+            <link>https://www.lonelyplanet.com/usa/new-york-city</link>
+        </country>
+        <country>
+            <name>Florida</name>
+            <discription>
+                Florida means almost anything: amusement kingdoms, Latin and Caribbean capitals, wild wetlands, artist colonies, and wild surf beaches. This vast, flat peninsula has it all.
+            </discription>
+            <image>../../images/florida.jpg</image>
+            <link>https://www.lonelyplanet.com/usa/florida</link>
+        </country>
+    </countries>
+  </continent>
+</root>

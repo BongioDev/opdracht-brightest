@@ -3,30 +3,32 @@
   <continent>
     <name>Africa</name>
     <discription>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus odit facilis inventore laudantium distinctio quaerat architecto mollitia, iste eos. Commodi veritatis repellat necessitatibus error aliquam accusamus odio minus tempore?
-        Lorem ipsum dolor, sit amet conrsectetur adipisicing elit. Perferendis ullam quaerat illum laudantium nemo necessitatibus, quae similique repellat ea minus nisi quidem omnis inventore. Cum obcaecati delectus provident laboriosam aliquam!
-        Lorem ipsum dolor sit amet conrsectetur adipisicing elit. Expedita, beatae. Optio facere in pariatur eligendi nihil odit officia accusantium voluptas accusamus, dignissimos impedit mollitia porro blanditiis praesentium maiores aut sapiente!
+        Africa. There's nowhere like it on the planet for wildlife, wild lands and rich traditions that endure. Prepare to fall in love.
     </discription>
     <countries>
         <country>
-            <name>Belegië</name>
-            <discription>beschrijcing land</discription>
-            <image></image>
+            <name>Egypt</name>
+            <discription>
+                The mighty Nile and magnificent monuments entice many to Egypt while the beguiling desert and lush delta wow visitors. Add in the country's long and lingering past and culture full of stories, it is a travelers dream.            
+            </discription>
+            <image>../../images/egypt.jpg</image>
+            <link>https://www.lonelyplanet.com/egypt</link>
         </country>
         <country>
-            <name>Ittalië</name>
-            <discription>beschrijvieng land</discription>
-            <image></image>
+            <name>South Africa</name>
+            <discription>
+                Black-maned lions framed against Kalahari dunes; powdery beaches lapped by two oceans; star-studded desert skies; jagged, lush mountains – this truly is a country of astounding diversity.            
+            </discription>
+            <image>../../images/southafrica.jpg</image>
+            <link>https://www.lonelyplanet.com/south-africa</link>
         </country>
         <country>
-            <name>Griegkenland</name>
-            <discription>bescghrijving land</discription>
-            <image></image>
-        </country>
-        <country>
-            <name>Noorwegren</name>
-            <discription>Besechrijcing land</discription>
-            <image></image>
+            <name>Morocco</name>
+            <discription>
+                Morocco is a gateway to Africa and a country of dizzying diversity. Here you'll find epic mountain ranges, ancient cities, sweeping deserts – and warm hospitality.
+            </discription>
+            <image>../../images/morocco.jpg</image>
+            <link>https://www.lonelyplanet.com/morocco</link>
         </country>
     </countries>
   </continent>

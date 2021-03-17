@@ -3,34 +3,40 @@
   <continent>
     <name>Asia</name>
     <discription>
-        aaaLorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus odit facilis inventore laudantium distinctio quaerat architecto mollitia, iste eos. Commodi veritatis repellat necessitatibus error aliquam accusamus odio minus tempore?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ullam quaerat illum laudantium nemo necessitatibus, quae similique repellat ea minus nisi quidem omnis inventore. Cum obcaecati delectus provident laboriosam aliquam!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae. Optio facere in pariatur eligendi nihil odit officia accusantium voluptas accusamus, dignissimos impedit mollitia porro blanditiis praesentium maiores aut sapiente!
+        From the nomadic steppes of Kazakhstan to the frenetic streets of Hanoi, Asia is a continent so full of intrigue, adventure, solace and spirituality that it has fixated and confounded travellers for centuries.
     </discription>
     <countries>
         <country>
-            <name>Beeeelgië</name>
-            <discription>beschrijcing land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>Sri Lanka</name>
+            <discription>
+                Endless beaches, timeless ruins, welcoming people, oodles of elephants, rolling surf, cheap prices, fun trains, famous tea and flavourful food make Sri Lanka irresistible.
+            </discription>
+            <image>../../images/srilanka.jpg</image>
+            <link>https://www.lonelyplanet.com/sri-lanka</link>
         </country>
         <country>
-            <name>Italië</name>
-            <discription>beschrijving land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>Thailand</name>
+            <discription>
+                Friendly and cheerful, exotic and tropical, cultural and historical. Thailand shines with the golden glow of beautiful temples, tropical beaches and the ever-present Thai smile.
+            </discription>
+            <image>../../images/thailand.jpg</image>
+            <link>https://www.lonelyplanet.com/thailand</link>
         </country>
         <country>
-            <name>Griekenland</name>
-            <discription>beschrijving land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>Japan</name>
+            <discription>
+                Japan is truly timeless, a place where ancient traditions are fused with modern life as if it were the most natural thing in the world.
+            </discription>
+            <image>../../images/japan.jpg</image>
+            <link>https://www.lonelyplanet.com/japan</link>
         </country>
         <country>
-            <name>Noorwegen</name>
-            <discription>Beschrijcing land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>Malaysia</name>
+            <discription>
+                Dynamic cities, fabulous food, beautiful beaches, idyllic islands and national parks with wildlife-packed rainforests – all of this can be found in Malaysia.
+            </discription>
+            <image>../../images/malaysia.jpg</image>
+            <link>https://www.lonelyplanet.com/malaysia</link>
         </country>
     </countries>
   </continent>

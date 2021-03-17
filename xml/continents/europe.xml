@@ -3,34 +3,41 @@
   <continent>
     <name>Europe</name>
     <discription>
-        aaaLorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus odit facilis inventore laudantium distinctio quaerat architecto mollitia, iste eos. Commodi veritatis repellat necessitatibus error aliquam accusamus odio minus tempore?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ullam quaerat illum laudantium nemo necessitatibus, quae similique repellat ea minus nisi quidem omnis inventore. Cum obcaecati delectus provident laboriosam aliquam!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae. Optio facere in pariatur eligendi nihil odit officia accusantium voluptas accusamus, dignissimos impedit mollitia porro blanditiis praesentium maiores aut sapiente!
+        There simply is no way to tour Europe and not be awestruck by its natural beauty, epic history and dazzling artistic and culinary diversity. 
+        Europe’s almost unmanageable wealth of attractions is its biggest single draw: the birthplace of democracy in Athens, the Renaissance art of Florence, the graceful canals of Venice, the Napoleonic splendour of Paris, and the multilayered historical and cultural canvas of London. Less obvious but no less impressive attractions include Moorish palaces in Andalucía, the fascinating East-meets-West brew of İstanbul in Turkey, the majesty of meticulously restored imperial palaces in Russia's former capital St Petersburg and the ongoing project of Gaudí's La Sagrada Família in Barcelona.
     </discription>
     <countries>
         <country>
-            <name>Beeeelgië</name>
-            <discription>beschrijcing land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>Italy</name>
+            <discription>
+                Home to many of the world's greatest works of art, architecture and gastronomy, Italy elates, inspires and moves like no other.
+            </discription>
+            <image>../../images/italy.jpg</image>
+            <link>https://www.lonelyplanet.com/italy</link>
         </country>
         <country>
-            <name>Italië</name>
-            <discription>beschrijving land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>Greece</name>
+            <discription>
+                Hedonists rejoice! Greece is ancient sun-bleached ruins piercing blue skies, the balmy Aegean lapping an endless coastline and a culture alive with passionate music, wonderful cuisine and thrill-seeking activities.
+            </discription>
+            <image>../../images/greece.jpg</image>
+            <link>https://www.lonelyplanet.com/greece</link>
         </country>
         <country>
-            <name>Griekenland</name>
-            <discription>beschrijving land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>Norway</name>
+            <discription>
+                The essence of Norway's appeal is remarkably simple: this is one of the most beautiful countries on earth.
+            </discription>
+            <image>../../images/norway.jpg</image>
+            <link>https://www.lonelyplanet.com/norway</link>
         </country>
         <country>
-            <name>Noorwegen</name>
-            <discription>Beschrijcing land beschrijcing land beschrijcing land beschrijcing land</discription>
-            <image>../../images/adventure.jpg</image>
-            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
+            <name>France</name>
+            <discription>
+                France seduces travellers with its unfalteringly familiar culture, woven around cafe terraces, village-square markets and lace-curtained bistros with their plat du jour (dish of the day) chalked on the board.
+            </discription>
+            <image>../../images/france.jpg</image>
+            <link>https://www.lonelyplanet.com/france</link>
         </country>
     </countries>
   </continent>
