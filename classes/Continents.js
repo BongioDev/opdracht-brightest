@@ -1,28 +1,23 @@
 
 class Continent{
 
-	constructor(continents){
-        this.continents = continents;
+	constructor(usercontinent){
+        this.usercontinent = usercontinent;
     }
 
-    getContinent() {
-        // store the xml filename(s)
-        var XMLurl = [];
 
-        for(i = 0; i < this.continents.length; i++) {
-            // push XML filenames in array
-            XMLurl.push("../../xml/continents/" + this.continents[i][0] + ".xml");
+    async getContinent() {
+        // store the xml filename
+        var XMLurl = "../../xml/continents/" + this.usercontinent[0] + ".xml";
 
-            fetch(XMLurl[i]).then(response => response.text())
-            .then(data => {
-            var parser = new DOMParser();
-            var xmlDoc = parser.parseFromString(data, "application/xml");
-            // console.log(xmlDoc);
+        // fetch
+        const response = await fetch(XMLurl);
+        const xmlDocText = await response.text();
+        var parser = new DOMParser();
+        //store xml doc
+        var xmlDoc = parser.parseFromString(xmlDocText, "application/xml");
 
-            return xmlDoc;
-        });
-        }
-
-
+        return xmlDoc;
     }
+
 }

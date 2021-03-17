@@ -1,32 +1,36 @@
 <?xml version="1.0"?>
 <root>
   <continent>
-    <name>Africa</name>
+    <name>Asia</name>
     <discription>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus odit facilis inventore laudantium distinctio quaerat architecto mollitia, iste eos. Commodi veritatis repellat necessitatibus error aliquam accusamus odio minus tempore?
-        Lorem ipsum dolor, sit amet conrsectetur adipisicing elit. Perferendis ullam quaerat illum laudantium nemo necessitatibus, quae similique repellat ea minus nisi quidem omnis inventore. Cum obcaecati delectus provident laboriosam aliquam!
-        Lorem ipsum dolor sit amet conrsectetur adipisicing elit. Expedita, beatae. Optio facere in pariatur eligendi nihil odit officia accusantium voluptas accusamus, dignissimos impedit mollitia porro blanditiis praesentium maiores aut sapiente!
+        aaaLorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta delectus odit facilis inventore laudantium distinctio quaerat architecto mollitia, iste eos. Commodi veritatis repellat necessitatibus error aliquam accusamus odio minus tempore?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ullam quaerat illum laudantium nemo necessitatibus, quae similique repellat ea minus nisi quidem omnis inventore. Cum obcaecati delectus provident laboriosam aliquam!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae. Optio facere in pariatur eligendi nihil odit officia accusantium voluptas accusamus, dignissimos impedit mollitia porro blanditiis praesentium maiores aut sapiente!
     </discription>
     <countries>
         <country>
-            <name>Belegië</name>
-            <discription>beschrijcing land</discription>
-            <image></image>
+            <name>Beeeelgië</name>
+            <discription>beschrijcing land beschrijcing land beschrijcing land beschrijcing land</discription>
+            <image>../../images/adventure.jpg</image>
+            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
         </country>
         <country>
-            <name>Ittalië</name>
-            <discription>beschrijvieng land</discription>
-            <image></image>
+            <name>Italië</name>
+            <discription>beschrijving land beschrijcing land beschrijcing land beschrijcing land</discription>
+            <image>../../images/adventure.jpg</image>
+            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
         </country>
         <country>
-            <name>Griegkenland</name>
-            <discription>bescghrijving land</discription>
-            <image></image>
+            <name>Griekenland</name>
+            <discription>beschrijving land beschrijcing land beschrijcing land beschrijcing land</discription>
+            <image>../../images/adventure.jpg</image>
+            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
         </country>
         <country>
-            <name>Noorwegren</name>
-            <discription>Besechrijcing land</discription>
-            <image></image>
+            <name>Noorwegen</name>
+            <discription>Beschrijcing land beschrijcing land beschrijcing land beschrijcing land</discription>
+            <image>../../images/adventure.jpg</image>
+            <link>https://www.lonelyplanet.com/articles/must-know-travel-tips-for-first-timers-in-italy</link>
         </country>
     </countries>
   </continent>
