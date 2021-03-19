@@ -2,9 +2,9 @@
 <root>
   <continent>
     <name>Europe</name>
-    <discription>
-        There simply is no way to tour Europe and not be awestruck by its natural beauty, epic history and dazzling artistic and culinary diversity. 
-        Europe’s almost unmanageable wealth of attractions is its biggest single draw: the birthplace of democracy in Athens, the Renaissance art of Florence, the graceful canals of Venice, the Napoleonic splendour of Paris, and the multilayered historical and cultural canvas of London. Less obvious but no less impressive attractions include Moorish palaces in Andalucía, the fascinating East-meets-West brew of İstanbul in Turkey, the majesty of meticulously restored imperial palaces in Russia's former capital St Petersburg and the ongoing project of Gaudí's La Sagrada Família in Barcelona.
+    <discription>&#xD;
+        There simply is no way to tour Europe and not be awestruck by its natural beauty, epic history and dazzling artistic and culinary diversity. &#xD;
+        Europe&#x2019;s almost unmanageable wealth of attractions is its biggest single draw: the birthplace of democracy in Athens, the Renaissance art of Florence, the graceful canals of Venice, the Napoleonic splendour of Paris, and the multilayered historical and cultural canvas of London. Less obvious but no less impressive attractions include Moorish palaces in Andaluc&#xED;a, the fascinating East-meets-West brew of &#x130;stanbul in Turkey, the majesty of meticulously restored imperial palaces in Russia's former capital St Petersburg and the ongoing project of Gaud&#xED;'s La Sagrada Fam&#xED;lia in Barcelona.&#xD;
     </discription>
     <countries>
         <country>

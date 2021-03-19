@@ -12,8 +12,6 @@ class Choice{
             localStorage.setItem("count_africa", counters["africa"]);
             localStorage.setItem("count_australia", counters["australia"]);
             localStorage.setItem("count_home", counters["home"]);
-            
-            console.log(localStorage);
         }
     
 }

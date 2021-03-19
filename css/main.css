@@ -1,10 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+
 body, html{
     background: url('../images/background1.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Barlow', sans-serif;
 }
 
 img {
@@ -18,6 +22,26 @@ p, .text {
     font-weight: 650;
 }
 
+h1, h2, h3, h4, h5, p {
+    font-weight: 700;
+}
+
+h1 {
+    font-size:40pt;
+}
+
+h3 {
+    font-size: 30pt;
+}
+
+h5 {
+    font-size: 15pt
+}
+
+p {
+    font-size: 14pt;
+}
+
 #welcomeText {
     margin-top: 80px;
     margin-bottom: 50px;
@@ -25,4 +49,8 @@ p, .text {
 
 .card {
     background-color: #FFF0ED;
+}
+
+.card-title {
+    color: darkred;
 }

@@ -9,7 +9,6 @@ var counters = {
     "home" : localStorage.getItem('count_home'),
 };
 
-
 // get the continent with the most points
 
 // get points from counters
@@ -51,6 +50,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     } catch(e) {
         console.log(e);
     }
+
+    // pass continent and username to hidden input for POSTing and editing user travel id attribute
+    // Maybe a little unorthodox? But it works
+    if (localStorage.getItem("hasCodeRunBefore") === null) {
+        document.getElementById('hiddenTravelId').value = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        document.getElementById('hiddenUserName').value = localStorage.getItem('user_name');
+        document.getElementById('hiddenForm').submit();
+        localStorage.setItem("hasCodeRunBefore", true);
+    }
+    
     // pass xmldocument to function 
     useXML(xmlDoc);
 });
@@ -70,7 +79,7 @@ function useXML(xmlDoc) {
     // add continent discription
     document.getElementById('continent-dis').innerHTML = continentDis;
 
-    // add country data to cards
+    // add country data to bootstrap cards
     for(var o = 0; o < countries.length; o++) {
         const row = document.getElementById("country-row");
         
@@ -108,13 +117,14 @@ function useXML(xmlDoc) {
         anchor.classList.add('info', 'btn', 'btn-primary');
         anchor.setAttribute('href', countries[o].children[3].childNodes[0].nodeValue);
         anchor.setAttribute('target', '_blank');
+
         const buttonText = document.createTextNode('More info!');
         anchor.appendChild(buttonText);
         div3.appendChild(anchor);
+    }
+}
 
-        // document.getElementsByClassName("card-title")[o].innerHTML = countries[o].children[0].childNodes[0].nodeValue;
-        // document.getElementsByClassName("card-text")[o].innerHTML = countries[o].children[1].childNodes[0].nodeValue;
-        // document.getElementsByClassName("card-img-top")[o].src = countries[o].children[2].childNodes[0].nodeValue;
-        // document.getElementsByClassName("info")[o].href = countries[o].children[3].childNodes[0].nodeValue;
-    } 
+
+function reset() {
+    Reset.reset();
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <root>
-  <user travel_id="to be added">
-    <name>abc</name>
-    <age>48</age>
+  <user travel_id="Australia">
+    <name>Alex</name>
+    <age>25</age>
     <gender>male</gender>
   </user>
 </root>
