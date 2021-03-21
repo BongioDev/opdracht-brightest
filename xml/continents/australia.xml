@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <root>
-  <continent>
-    <name>Australia</name>
-    <discription>
-        Australia is the unexpected: a place where the world’s oldest cultures share vast ochre plains, stylish laneways and unimaginably blue waters with successive waves of new arrivals from across the globe.
-    </discription>
-    <countries>
-        <country>
-            <name>Freycinet National Park</name>
-            <discription>
-                Framed by some of the state's finest beaches and rising into spectacular low mountains, Freycinet incorporates the southern end of Freycinet Peninsula, people-free Schouten Island and the lesser-known Friendly Beaches north of Coles Bay. 
-            </discription>
-            <image>../../images/auspark.jpg</image>
-            <link>https://www.lonelyplanet.com/australia/tasmania/east-coast/attractions/freycinet-national-park/a/poi-sig/1163232/362442</link>
-        </country>
-        <country>
-            <name>Melbourne</name>
-            <discription>
+    <continent>
+        <name>Australia</name>
+        <discription>&#xD;
+        Australia is the unexpected: a place where the world&#x2019;s oldest cultures share vast ochre plains, stylish laneways and unimaginably blue waters with successive waves of new arrivals from across the globe.&#xD;
+        </discription>
+        <countries>
+            <country>
+                <name>Freycinet National Park</name>
+                <discription>&#xD;
+                Framed by some of the state's finest beaches and rising into spectacular low mountains, Freycinet incorporates the southern end of Freycinet Peninsula, people-free Schouten Island and the lesser-known Friendly Beaches north of Coles Bay. &#xD;
+                </discription>
+                <image>../../images/auspark.jpg</image>
+                <link>https://www.lonelyplanet.com/australia/tasmania/east-coast/attractions/freycinet-national-park/a/poi-sig/1163232/362442</link>
+            </country>
+            <country>
+                <name>Melbourne</name>
+                <discription>
                 Equal parts dynamic, cosmopolitan, sports-mad and arty, Melbourne simultaneously exudes style and keeps its best spots hidden, inviting discovery by food and culture lovers.
-            </discription>
-            <image>../../images/melbourne.jpg</image>
-            <link>https://www.lonelyplanet.com/australia/melbourne</link>
-        </country>
-    </countries>
-  </continent>
+                </discription>
+                <image>../../images/melbourne.jpg</image>
+                <link>https://www.lonelyplanet.com/australia/melbourne</link>
+            </country>
+        </countries>
+    </continent>
 </root>

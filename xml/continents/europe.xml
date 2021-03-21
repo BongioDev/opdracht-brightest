@@ -9,32 +9,30 @@
     <countries>
         <country>
             <name>Italy</name>
-            <discription>
-                Home to many of the world's greatest works of art, architecture and gastronomy, Italy elates, inspires and moves like no other.
-            </discription>
+            <discription>&#xD;
+                Home to many of the world's greatest works of art, architecture and gastronomy, Italy elates, inspires and moves like no other.</discription>
             <image>../../images/italy.jpg</image>
             <link>https://www.lonelyplanet.com/italy</link>
         </country>
         <country>
             <name>Greece</name>
-            <discription>
-                Hedonists rejoice! Greece is ancient sun-bleached ruins piercing blue skies, the balmy Aegean lapping an endless coastline and a culture alive with passionate music, wonderful cuisine and thrill-seeking activities.
-            </discription>
+            <discription>&#xD;
+                Hedonists rejoice! Greece is ancient sun-bleached ruins piercing blue skies, the balmy Aegean lapping an endless coastline and a culture alive with passionate music, wonderful cuisine and thrill-seeking activities.            </discription>
             <image>../../images/greece.jpg</image>
             <link>https://www.lonelyplanet.com/greece</link>
         </country>
         <country>
             <name>Norway</name>
-            <discription>
-                The essence of Norway's appeal is remarkably simple: this is one of the most beautiful countries on earth.
+            <discription>&#xD;
+                The essence of Norway's appeal is remarkably simple: this is one of the most beautiful countries on earth.&#xD;
             </discription>
             <image>../../images/norway.jpg</image>
             <link>https://www.lonelyplanet.com/norway</link>
         </country>
         <country>
             <name>France</name>
-            <discription>
-                France seduces travellers with its unfalteringly familiar culture, woven around cafe terraces, village-square markets and lace-curtained bistros with their plat du jour (dish of the day) chalked on the board.
+            <discription>&#xD;
+                France seduces travellers with its unfalteringly familiar culture, woven around cafe terraces, village-square markets and lace-curtained bistros with their plat du jour (dish of the day) chalked on the board.&#xD;
             </discription>
             <image>../../images/france.jpg</image>
             <link>https://www.lonelyplanet.com/france</link>

@@ -2,22 +2,22 @@
 <root>
   <continent>
     <name>Asia</name>
-    <discription>
-        From the nomadic steppes of Kazakhstan to the frenetic streets of Hanoi, Asia is a continent so full of intrigue, adventure, solace and spirituality that it has fixated and confounded travellers for centuries.
+    <discription>&#xD;
+        From the nomadic steppes of Kazakhstan to the frenetic streets of Hanoi, Asia is a continent so full of intrigue, adventure, solace and spirituality that it has fixated and confounded travellers for centuries.    &#xD;
     </discription>
     <countries>
         <country>
             <name>Sri Lanka</name>
-            <discription>
-                Endless beaches, timeless ruins, welcoming people, oodles of elephants, rolling surf, cheap prices, fun trains, famous tea and flavourful food make Sri Lanka irresistible.
+            <discription>&#xD;
+                Endles beaches, timeless ruins, welcoming people, oodles of elephants, rolling surf, cheap prices, fun trains, famous tea and flavourful food make Sri Lanka irresistible.&#xD;
             </discription>
             <image>../../images/srilanka.jpg</image>
             <link>https://www.lonelyplanet.com/sri-lanka</link>
         </country>
         <country>
             <name>Thailand</name>
-            <discription>
-                Friendly and cheerful, exotic and tropical, cultural and historical. Thailand shines with the golden glow of beautiful temples, tropical beaches and the ever-present Thai smile.
+            <discription>&#xD;
+                Friendly and cheerful, exotic and tropical, cultural and historical. Thailand shines with the golden glow of beautiful temples, tropical beaches and the ever-present Thai smile.&#xD;
             </discription>
             <image>../../images/thailand.jpg</image>
             <link>https://www.lonelyplanet.com/thailand</link>
@@ -32,8 +32,8 @@
         </country>
         <country>
             <name>Malaysia</name>
-            <discription>
-                Dynamic cities, fabulous food, beautiful beaches, idyllic islands and national parks with wildlife-packed rainforests – all of this can be found in Malaysia.
+            <discription>&#xD;
+                Dynamic cities, fabulous food, beautiful beaches, idyllic islands and national parks with wildlife-packed rainforests &#x2013; all of this can be found in Malaysia.&#xD;
             </discription>
             <image>../../images/malaysia.jpg</image>
             <link>https://www.lonelyplanet.com/malaysia</link>

@@ -18,7 +18,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   file_put_contents($xmlUrl, $xmlDoc->saveXML());
   
   header("Location: http://localhost/opdracht-brightest/views/final/final.html");
-
 };
-
 ?>
